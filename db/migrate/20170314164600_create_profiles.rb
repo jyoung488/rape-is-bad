@@ -7,7 +7,7 @@ class CreateProfiles < ActiveRecord::Migration[5.0]
       t.string :twitter_handle
       t.string :first_resource
       t.string :second_resource
-      t.string :third_resrouce
+      t.string :third_resource
 
       t.timestamps
     end
