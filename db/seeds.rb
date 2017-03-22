@@ -31,7 +31,7 @@ Profile.create(
     during the day and return at night) and 20 years of probation. Friends and family
     asked the judge to consider this 'traumatic incident' for Austin and to consider his
     future 'if not defined by this one incident.' The Probation Department recommended
-    no prison time at all, given that Austin '[showed] remorse.'"
+    no prison time at all, given that Austin '[showed] remorse.'",
   image: File.open(Rails.root + "app/assets/images/austin-wilkerson.jpeg"),
   first_resource: "http://www.huffingtonpost.com/entry/austin-wilkerson-boulder-rape-prison_us_57abb86ce4b06e52746f3b22",
   second_resource: "http://www.cnn.com/2016/08/11/us/colorado-sexual-assault-sentence/",
@@ -46,7 +46,7 @@ Profile.create(
     he was free on $150,000 bail and faced a maximum sentence of 10 years in prison.
     Brock was sentenced to 6 months in county jail and will have to register as a sex
     offender. His father described this crime as '20 minutes of action.' Brock was
-    released from jail after serving 3 months."
+    released from jail after serving 3 months.",
   image: File.open(Rails.root + "app/assets/images/brock-turner.jpg"),
   first_resource: "http://www.huffingtonpost.com/entry/brock-turner-stanford-guilty-sexual-assault_us_56fcacfae4b0a06d5804ce5a",
   second_resource: "http://www.cnn.com/2016/06/06/us/sexual-assault-brock-turner-stanford/",
@@ -58,7 +58,7 @@ Profile.create(
   description: "Alexander Rodriguez plead guilty to aggravated statuatory rape after
     forcing a high school student to perform oral sex on him and raping her. He was sentenced to
     4 years in prison. However, the prison sentence was suspended and Alexander
-    will now serve 10 years of probation and wear an ankle monitor."
+    will now serve 10 years of probation and wear an ankle monitor.",
   image: File.open(Rails.root + "app/assets/images/alexander-rodriguez.jpeg"),
   first_resource: "http://nbc4i.com/2016/07/25/no-jail-time-for-bus-driver-who-pleaded-guilty-to-rape/",
   second_resource: "http://www.chattanoogan.com/2015/3/5/295374/County-School-Bus-Driver-Alexander.aspx",

@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20170314171316) do
     t.string   "twitter_handle"
     t.string   "first_resource"
     t.string   "second_resource"
-    t.string   "third_resrouce"
+    t.string   "third_resource"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
   end
