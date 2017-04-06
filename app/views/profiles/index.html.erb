@@ -1,15 +1,16 @@
 <h1>rape is bad</h1>
 
-<div class="grid">
-
-  <% @profiles.each do |prf| %>
-    <div class="card">
-      <img src="<%= prf.image %>" alt="<%= prf.name %>" style="width:100%" />
-      <div class="container">
-        <h4><%= prf.name %></h4>
-        <p><%= prf.description.truncate(100, separator: ' ') %></p>
-        <%= link_to "More", profile_path(prf) %>
+<div class="section">
+  <div class="grid">
+    <% @profiles.each do |prf| %>
+      <div class="card">
+        <img src="<%= prf.image %>" alt="<%= prf.name %>" style="width:100%" />
+        <div class="container">
+          <h4><%= prf.name %></h4>
+          <p><%= prf.description.truncate(100, separator: ' ') %></p>
+          <%= link_to "More", profile_path(prf) %>
+        </div>
       </div>
-    </div>
-  <% end %>
+    <% end %>
+  </div>
 </div>
